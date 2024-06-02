@@ -1,3 +1,1 @@
-[build]
-  command = "npm install --force && npm run build"
-  publish = "build"
+npm install --force && npm run build
