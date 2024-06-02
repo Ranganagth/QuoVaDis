@@ -1,0 +1,57 @@
+.project-config {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.project-config .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.project-config .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.project-config .main-content {
+    display: flex;
+    flex: 1;
+}
+
+.project-config .sidebar {
+    width: 200px;
+    background-color: #343a40;
+    color: white;
+}
+
+.project-config .sidebar-item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.project-config .sidebar-item.selected {
+    background-color: maroon;
+}
+
+.project-config .content-area {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-config .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.project-config .footer button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
